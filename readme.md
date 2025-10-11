@@ -65,8 +65,8 @@ OpenJDK Runtime Environment Temurin-17.x.x+x
 cd C:\your\desired\path
 
 # Clone the repository (if using git)
-git clone https://github.com/karlwizkrafte/Reyes_FourthExam.git
-cd Reyes_FourthExam
+git clone https://github.com/karlwizkrafte/Reyes_FourthExamination.git
+cd Reyes_FourthExamination
 
 # Or download and extract the project files
 ```
@@ -78,7 +78,7 @@ cd Reyes_FourthExam
 **📋 Copy and paste rani sa PowerShell para kani na ang mo kurikuri og run sa app**
 
 ```powershell
-cd $env:USERPROFILE\Desktop; if (!(Test-Path "CPE211_FOURTHEXAMINATIONS")) { mkdir CPE211_FOURTHEXAMINATIONS }; cd CPE211_FOURTHEXAMINATIONS; if (Test-Path "Reyes_FourthExam") { Remove-Item "Reyes_FourthExam" -Recurse -Force }; git clone https://github.com/karlwizkrafte/Reyes_FourthExam.git; cd Reyes_FourthExam; explorer .; mvn clean compile; mvn exec:java `"-Dexec.mainClass=cpe211.fourthexam.reyes.REYES_FOURTHEXAM`"
+cd $env:USERPROFILE\Desktop; if (!(Test-Path "CPE211_FOURTHEXAMINATIONS")) { mkdir CPE211_FOURTHEXAMINATIONS }; cd CPE211_FOURTHEXAMINATIONS; if (Test-Path "Reyes_FourthExamination") { Remove-Item "Reyes_FourthExamination" -Recurse -Force }; git clone https://github.com/karlwizkrafte/Reyes_FourthExamination.git; cd Reyes_FourthExamination; explorer .; mvn clean compile; mvn exec:java `"-Dexec.mainClass=cpe211.fourthexam.reyes.REYES_FOURTHEXAM`"
 ```
 
 **Automation Transparency:**
@@ -113,7 +113,7 @@ java -cp target/classes cpe211.fourthexam.reyes.REYES_FOURTHEXAM
 cpe211_fourthexam/
 ├── 📁 src/
 │   ├── 📁 main/java/cpe211/
-│   │   ├── � fourthexam/reyes/
+│   │   ├── 📁 fourthexam/reyes/
 │   │   │   ├── 📄 QCLI.java                         # Command Line Interface
 │   │   │   ├── 📄 REYES_FOURTHEXAM.java             # Main Application Entry Point
 │   │   │   └── 📄 UserNetwork.java                  # Social Network Implementation
