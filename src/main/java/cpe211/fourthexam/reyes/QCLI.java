@@ -13,13 +13,6 @@ public class QCLI {
     private UserNetwork.KNetwork kn = userNetwork.new KNetwork();
     private BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
     
-    public static void main(String[] args) {
-
-        QCLI cli = new QCLI();
-        cli.run();
-
-    }
-    
     public void run() {
 
         loadExamSample();
